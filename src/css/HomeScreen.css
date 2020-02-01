@@ -1,0 +1,98 @@
+.home-screen {
+    margin-left: 322px;   
+}
+
+.abt-me {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #777777;
+    height: 58px;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 36px;
+}
+
+.abt-me-txt {
+    width: auto;
+    align-self: center;
+}
+
+.abt-me-txt p {
+    font-size: 16px;
+    line-height: 22px;
+    text-indent: 20px;
+    color: #000000;
+    
+}
+
+.abt-me-data {
+    margin-left: 35px;
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    width: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-indent: 20px;
+    color: #000000;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto 30px;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.abt-me-data li {
+    margin: 25px 0;
+}
+
+.abt-me-data span {
+    color: #777;
+}
+
+@media screen and (max-width: 400px) {
+    .home-screen {
+        margin: 0;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    .abt-me {
+        margin-top: 100px;
+    }
+
+    .abt-me-txt {
+        text-align: center;
+        width: 96%; 
+    }
+
+    .abt-me-data {
+        margin: 50px 5px 0;
+        padding: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,447 @@
+.aa-screen {
+    margin-left: 322px ;    
+    height: 5100px;
+}
+
+.aa-wrapper {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.aa-wrapper h2 {
+    font: 400;
+    color: #282828; 
+}
+
+.aa-title {
+    width: auto;
+    color: #0096cc;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.gry-bar {
+    position: absolute;
+    width: 70px;
+    height: 5200px;
+    background-color: #ccc;
+    padding-top: 6px;
+    
+}
+
+.year-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 90px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 55px;
+    margin: 0 auto;  
+    z-index: 2;
+    position: relative;
+}
+
+.year2018 {
+    position: relative;
+    top: 280px
+}
+.year2017 {
+    position: relative;
+    top: 560px
+}
+.year2016 {
+    position: relative;
+    top: 840px
+}
+.year2015 {
+    position: relative;
+    top: 1120px
+}
+.year2014 {
+    position: relative;
+    top: 1400px
+}
+.year2013 {
+    position: relative;
+    top: 1680px
+}
+.year2012 {
+    position: relative;
+    top: 1960px
+}
+.year2009 {
+    position: relative;
+    top: 2240px
+}
+.year2008 {
+    position: relative;
+    top: 2520px
+}
+.year2007 {
+    position: relative;
+    top: 2800px
+}
+.year2006 {
+    position: relative;
+    top: 3080px
+}
+.year2005 {
+    position: relative;
+    top: 3360px
+}
+.year2004 {
+    position: relative;
+    top: 3640px
+}
+.year2003 {
+    position: relative;
+    top: 3920px
+}
+.year2002 {
+    position: relative;
+    top: 4200px
+}
+
+.color-bar {
+    width: 70px;
+    height: 2000px;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+}
+
+/*  ====== BAR-MASK  ======= */ 
+
+.bar-mask {
+    position: absolute;
+    z-index: 5;
+    width: 74px;
+    left: -1.8px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    top: 0;
+}
+
+.bar-mask img {
+    width: 100%;
+}
+
+.mask1 {
+    position: relative;
+    height: 268px;
+}
+
+.mask2 {
+    height: 268px;
+}
+
+.mask3 {
+    height: 268px;
+}
+
+.float-right {
+    float: right;
+}
+.none {
+    display: none;
+}
+
+.poza {
+     border: 1px solid red;
+}
+
+/* ========== RECITALS ==========*/
+
+.recitals-wr {
+    width: 90%; 
+    margin-left: 100px; 
+    height: 270px;
+    position: relative;
+}
+
+.recitals-wr img {
+    width: 175px;
+    height: 250px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.rwr {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.rwr::-webkit-scrollbar {
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rwr::-webkit-scrollbar-thumb {
+    background: #0096cc;
+    height: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.rwr::-webkit-scrollbar-thumb:hover {
+    background: #36add8;
+}
+
+.rc-slider {
+    width: auto;
+    height: 250px;
+    display: inline-flex; 
+    left: 0;
+    position: absolute;
+}
+
+.wr-2019 { margin-top: 65px }
+.wr-2018 { margin-top: 65px }
+.wr-2017 { margin-top: 60px }
+.wr-2016 { margin-top: 65px }
+.wr-2015 { margin-top: 60px }
+.wr-2014 { margin-top: 65px }
+.wr-2013 { margin-top: 60px }
+.wr-2012 { margin-top: 60px }
+.wr-2009 { margin-top: 65px }
+.wr-2008 { margin-top: 60px }
+.wr-2007 { margin-top: 65px }
+.wr-2006 { margin-top: 60px }
+.wr-2005 { margin-top: 60px }
+.wr-2004 { margin-top: 63px }
+.wr-2003 { margin-top: 63px }
+.wr-2002 { margin-top: 60px }
+
+.infobtn {
+    display: none;
+    width: 175px;
+    height: 40px;
+    background: #ef7204;   
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    animation-name: popout;
+    animation-duration: .3s;
+}
+
+@keyframes popout {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 40px;
+    }
+
+    100% {
+        bottom: 20px;   
+    }
+}
+
+.try:hover .infobtn {
+    display: block;
+}
+
+
+.infobtn p {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.try {
+    position: relative;
+}
+
+
+@media screen and (max-width: 600px) {
+    .aa-screen {
+        margin: 0;  
+        width: 96%;
+        height: 5160px;
+    }
+
+    .aa-wrapper {
+        margin: 0 0 0 5px;
+    }
+
+    .aa-title {
+        margin-left: 15px;
+    }
+
+    .aa-wrapper h2 {
+        margin-left: 15px;
+    }
+
+    .recitals-wr {
+        margin-left: 54px;
+        height: 250px;
+    }
+
+    .rwr {
+        height: 250px;
+    }
+
+    .recitals-wr img {
+        position: relative;
+        width: 45%;    
+        margin: 0
+    }
+
+    .rc-slider div { 
+        width: 150px;
+        margin-right: 10px
+    }
+    
+    .rc-slider img {
+        width: 150px;
+        height: 230px;
+    }
+
+    .rwr::-webkit-scrollbar {
+        height: 7px;
+    }
+
+    /* sidebar */
+
+    .bar-mask{ 
+        width: 56px;
+        left: -2px
+    }
+
+    .year-box{ 
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+        font-size: 14px;
+    }
+
+    .gry-bar {
+        width: 52px;
+    }
+
+    .color-bar {
+        width: 52px;
+    }
+    
+    .year2019{
+        position: relative;
+        top: -1.9px;
+    }
+    .year2018 {
+        position: relative;
+        top: 274.8px
+    }
+    .year2017 {
+        position: relative;
+        top: 551.4px
+    }
+    .year2016 {
+        position: relative;
+        top: 827.5px
+    }
+    .year2015 {
+        position: relative;
+        top: 1103.9px
+    }
+    .year2014 {
+        position: relative;
+        top: 1380.4px
+    }
+    .year2013 {
+        position: relative;
+        top: 1657px
+    }
+    .year2012 {
+        position: relative;
+        top: 1933.3px
+    }
+    .year2009 {
+        position: relative;
+        top: 2209.8px
+    }
+    .year2008 {
+        position: relative;
+        top: 2486.2px
+    }
+    .year2007 {
+        position: relative;
+        top: 2762.6px
+    }
+    .year2006 {
+        position: relative;
+        top: 3039px
+    }
+    .year2005 {
+        position: relative;
+        top: 3315.5px
+    }
+    .year2004 {
+        position: relative;
+        top: 3592px
+    }
+    .year2003 {
+        position: relative;
+        top: 3868.3px
+    }
+    .year2002 {
+        position: relative;
+        top: 4144.8px
+    }
+
+
+    .wr-2019 { margin-top: 60px }
+    .wr-2018 { margin-top: 65px }
+    .wr-2017 { margin-top: 65px }
+    .wr-2016 { margin-top: 65px }
+    .wr-2015 { margin-top: 70px }
+    .wr-2014 { margin-top: 65px }
+    .wr-2013 { margin-top: 65px }
+    .wr-2012 { margin-top: 65px }
+    .wr-2009 { margin-top: 65px }
+    .wr-2008 { margin-top: 70px }
+    .wr-2007 { margin-top: 65px }
+    .wr-2006 { margin-top: 65px }
+    .wr-2005 { margin-top: 70px }
+    .wr-2004 { margin-top: 70px }
+    .wr-2003 { margin-top: 65px }
+    .wr-2002 { margin-top: 65px }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
